@@ -1,0 +1,9 @@
+<!ELEMENT library (book+)> 
+<!ELEMENT book (bname,bid,page)>
+<!ELEMENT bname (#PCDATA)>
+<!ELEMENT bid (#PCDATA)>
+<!ELEMENT page (#PCDATA)>
+
+<!ATTLIST library lname CDATA #REQUIRED>
+<!ATTLIST library laddress CDATA #IMPLIED>
+<!ATTLIST library lphonenumber CDATA #IMPLIED>

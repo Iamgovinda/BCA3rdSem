@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<persons
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:NoNamespaceSchemaLocation="personinfo1.xsd">
+    <person>
+        <full_name>Full Name</full_name>
+        <Child_name>Children Name</Child_name>
+    </person>
+
+    <person>
+        <full_name>Full Name</full_name>
+        <Child_name>Children Name</Child_name>
+        <address>Address</address>
+        <house>house</house>
+    </person>
+
+</persons>

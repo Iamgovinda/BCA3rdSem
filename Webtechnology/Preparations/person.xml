@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persons [
+    <!ELEMENT persons (person+)>
+    <!ELEMENT person (name,phone)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT phone (#PCDATA)>
+
+    <!ATTLIST persons color CDATA #REQUIRED>
+    <!ATTLIST persons eye CDATA #REQUIRED>
+
+    <!ATTLIST person quality CDATA #IMPLIED>
+    <!ATTLIST person lang CDATA #IMPLIED>
+
+]>
+<persons color = "red" eye = "black">
+    <person quality = "handsome">
+        <name>Gobinda</name>
+        <phone>5678</phone>
+    </person>
+    <person lang = "Python">
+        <name>Nets</name>
+        <phone>257</phone>      
+    </person>
+</persons>

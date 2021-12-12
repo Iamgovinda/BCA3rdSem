@@ -1,0 +1,4 @@
+1.Define class in java?
+2. Define instance or object.
+3.What do you mean by constructor?
+4.What do you mean by method in oop?

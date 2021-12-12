@@ -1,0 +1,29 @@
+<?xml version= "1.0"?>
+<!DOCTYPE addressbook SYSTEM "ab.dtd">
+<addressbook>
+    <title>My Address Book</title>
+    <contact> 
+        <name>Rabi Shrestha</name> 
+        <address>Swoyambhu</address> 
+        <city>Kathmandu</city> 
+        <phone>
+            <mobile>9851258639</mobile>
+            <home_no>0123456</home_no> 
+        </phone>
+        <email>rabishrestha@gmail.com</email>
+        <company>My Company</company>
+    </contact>
+
+    <contact> 
+        <name>Rabi Shrestha</name> 
+        <address>Swoyambhu</address> 
+        <city>Kathmandu</city> 
+        <phone>
+            <mobile>9851258639</mobile>
+            <home_no>0123456</home_no> 
+        </phone>
+        <email>rabishrestha@gmail.com</email>
+        <company>My Company</company>
+    </contact>
+    
+</addressbook>

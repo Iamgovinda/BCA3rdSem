@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<myinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation = "myinfo.xsd">
+    
+    <name>Govinda</name>
+    <address>Dhading</address>
+    <age>20</age>
+    
+</myinfo>

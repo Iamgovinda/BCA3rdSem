@@ -1,0 +1,4 @@
+Q.Differentiate between procedure oriented pl and object oriented programming language.
+Q.what role java plays in IT
+Q. History of the java
+

@@ -1,0 +1,12 @@
+<!ELEMENT addressbook (title,(contact)+)> 
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT contact (name, address, city, phone, email, company)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT city (#PCDATA)> 
+<!ELEMENT phone (mobile, home_no?)>
+<!ELEMENT mobile (#PCDATA)> 
+<!ELEMENT home_no (#PCDATA)> 
+<!ELEMENT email (#PCDATA)> 
+<!ELEMENT company (#PCDATA)>
+<!ELEMENT g (#PCDATA)>

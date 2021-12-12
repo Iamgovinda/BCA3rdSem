@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container1{
+        border: 5px solid aqua;
+        padding: 4px;
+        margin: 0px;
+        height: 200px;
+        width: 75%;
+        border-collapse: collapse;
+}
+.container1A{
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #5B6DCD 5px;
+    padding: 0px;
+    margin: 0;
+}

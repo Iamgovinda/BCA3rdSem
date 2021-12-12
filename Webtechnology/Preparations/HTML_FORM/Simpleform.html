@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+    </head>
+    <style>
+        body{
+            background-color: rgb(252, 250, 250);
+            color: black;
+        }
+        #Name{
+            background-color: rgb(252, 251, 249);
+            border: 2px solid rgb(9, 55, 243);
+            width: 50%;
+            height: auto;
+            text-align: center;
+            border-radius: 6px;
+            float: center;
+        }
+        #pass{
+            background-color: rgb(252, 251, 249);
+            border: 2px solid rgb(9, 55, 243);
+            width: 50%;
+            height: auto;
+            text-align: center;
+            border-radius: 6px;
+        }
+        #subbutton{
+            background-color: rgb(46, 12, 240);
+            border: 2px solid rgb(5, 15, 24);
+            border-radius: 10px;
+            color: aliceblue;
+            width:20%;
+            margin:auto;
+            
+        }
+        .FormElements{
+            margin:0;
+        }
+        /*.name{
+            background-color: yellow;
+        }
+        .password{
+            background-color: aqua;
+        }*/
+        .forget{
+            width: auto;
+            height: 10%;
+            margin: auto;
+        }
+        .div1{
+            border: 4px solid black;
+            border-radius: 5px;
+            border-color: blue;
+            border-collapse: collapse;
+            border-left: 4px solid black;
+            padding: 5%;
+            color: rgb(3, 4, 7);
+            margin-top: 10px;
+            background-color: antiquewhite;
+            border-spacing: 10px;
+            outline: 3px solid green;
+            text-align: left;
+        }
+
+        .div1 a{
+            text-decoration: line-through;
+            text-transform: lowercase;
+            font-family: sans-serif;
+            font-style: italic;
+
+        }
+
+        .nav{
+            background-color: black;
+            width: 100%;
+        }
+        .item a:hover,:active{
+            background-color: rgb(109, 15, 85);
+            font-size: 2em;
+            font-style: italic;
+        }
+        .item a{
+            display: inline;
+        }
+
+    </style>
+    <body>
+        <div class="nav">
+            <ul class="items">
+                <li class="item"><a href="userlogin.html">Home</a><br></li>
+                <li class="item"><a href="userlogin.html">Products</a><br></li>
+                <li class="item"><a href="userlogin.html">Missions</a><br></li>
+                <li class="item"><a href="userlogin.html">Find us</a><br></li>
+                <li class="item"><a href="userlogin.html">Careers</a><br></li>
+            </ul>
+        </div>
+        <div class="FormElements">
+        <form>
+                <div class="name">
+                    <!-- <label for="Name">UserName</label> -->
+                    <input type="text" id="Name" name="Name" placeholder="Email or Phone Number">
+                </div><br>
+                <div class="password">
+                    <!-- <label for="pass">Password</label> -->
+                    <input type="password" id="pass" name="password" placeholder="Password">
+                </div><br>
+                <div class="Submit">
+                    <button id="subbutton"    formMethod="get" formAction="https://www.facebook.com/?stype=lo&jlou=Afed4iWoa1TMQG2vOnGkIwK1W2JZt1A2w460fwwdQsyDMGIZ7t4k8FT3dhsF_u-gJK1GkNFiWcI5KdUahqUD_3AtFkbSY9vNytb4rGsTyt1rzQ&smuh=15779&lh=Ac_DfAIwOeRzKTWXhSw">Log In</button>
+                </div><br>
+
+                <div class="forget">
+                    <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" style="color: blue;">Forgot Password?</a>
+                </div>
+
+                <div class="div1">
+                    A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. ... One of the most important of these is a topic sentence.
+                    <a href="https://www.gobinda.info.np">Codewithgovindey</a>
+                </div>
+        </form>
+    </div>
+    </body>
+</html>

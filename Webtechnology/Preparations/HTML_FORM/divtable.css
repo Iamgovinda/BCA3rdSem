@@ -1,0 +1,39 @@
+div.div1{
+    border: 1px solid black;
+    padding-bottom: 2px;
+}
+div.div2{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-bottom: 2px;
+    
+}
+div.div3{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 2px;
+}
+div.div4{
+    border: 1px solid black;
+    padding: 2px;
+    
+    
+    
+}
+div.bar1{
+    border-right: 2px solid black;
+    width: 40%;
+    display: table-cell;
+    float: left;
+
+}
+div.bar2{
+    width: 50%;
+    display: table-cell;
+    text-align: center;
+}
+div.div5{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 0px;
+}

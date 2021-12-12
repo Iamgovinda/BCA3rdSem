@@ -1,0 +1,10 @@
+<!ELEMENT shop (food+)>
+<!ELEMENT food (name,type,cost?,boge?)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT cost (#PCDATA)>
+<!ELEMENT boge (#PCDATA)>
+
+<!ATTLIST shop location CDATA #REQUIRED>
+<!ATTLIST shop size CDATA #REQUIRED>
+<!ATTLIST shop name CDATA #REQUIRED>

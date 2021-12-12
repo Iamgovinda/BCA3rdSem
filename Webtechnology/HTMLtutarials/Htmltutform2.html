@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+    <style>
+        h2{
+            color: blue;
+            text-align: center;
+            background-color: black;
+        }
+        .form{
+            text-align: left;
+            background: rgb(145, 127, 127);
+            background-color: aquamarine;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <h2>
+        Please fill the following form!
+    </h2>
+    <div class="form">
+        <form action="backend.php">
+
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="Myname">     <!-- //This input takes text from user in textbox. -->
+            </div>
+            <br>
+            <div>
+                <label for="Age">YourAge:  </label>
+                <input type="number" id="Age" name="Myage">     <!--This will take number as an input!-->
+            </div>
+            <br>
+            <div>
+                <label for="phonenum">YourPhNo: </label>
+                <input type="number" id="phonenum" name="Myphonenum">
+            </div>
+            <br>
+            <div>
+                <label for="email">YourEmail: </label>
+                <input type="email" name="Myemail" id="email">  <!--This will take email as input-->
+            </div>
+            <br>
+            <div>
+                <label for="btn">Click button: </label>
+                <input type="button" value="Click button!" id="btn">
+            </div>
+            <br>
+            <div>
+                <label for="Eligibility">Are you eligible?: </label>
+                <input type="checkbox" name="Myeligibility" id="Eligibility">
+            </div>
+            <br>
+            <div>
+                <label for="dtl">Local datetime: </label>
+                <input type="datetime-local" name="Mydatetimeloc" id="dtl">
+            </div>
+            <br>
+            <div>
+                <label for="gender">Gender: </label>
+                <input type="radio" name="Mygender" id="gender">
+            </div>
+            <br>
+            <div>
+                <label for="color">Choose color: </label>
+                <input type="color" name="Mycolor" id="color">
+            </div>
+            <br>
+            <div>
+                <label for="aboutyou">Write something about you!</label>
+                <br>
+                <textarea name="about" id="aboutyou" cols="90" rows="15"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="car">Choose Car!</label>
+                <select name="Mycar" id="car">
+                    <option value="Tesla">Tesla</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Rroyals">Rroyals</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            <div>
+               Submit: <input type="submit" value="Submit Now!"> <!--This is for submit!-->
+            </div>
+            <br>
+            <div>
+                Reset: <input type="reset" value="Reset Now!">  <!--This is for reset!-->
+            </div>
+        </form>
+    </div>
+</body>
+</html>

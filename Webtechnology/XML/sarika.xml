@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE shop SYSTEM "sarika.dtd">
+<shop location="Satungal" size="Large" name="Sarika's shop">
+    <food>
+        <name>Pineapple</name>
+        <type>fruit</type>
+        <cost>600</cost>
+    </food>
+    <food>
+        <name>cabbage</name>
+        <type>vegetable</type>
+ 
+        <boge>djsj</boge>
+    </food>
+</shop>

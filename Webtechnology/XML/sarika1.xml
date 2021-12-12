@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<shop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="sarika1.xsd" location="Satungal" size="Large" name="Sarika's Shop">
+    <food>
+        <name>Pineapple</name>
+        <type>fruit</type>
+        <cost>600</cost>
+    </food>
+    <food>
+        <name>Cabbage</name>
+        <type>vegetable</type>
+        <cost>100</cost>
+    </food>
+</shop>

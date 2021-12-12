@@ -1,0 +1,29 @@
+<?xml version = "1.0"?> 
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Question6.xsd">
+    <student>
+        <name>AKRITI SUBEDI</name>
+        <address>KTM</address>
+        <phone>0123456789</phone>
+        <website>www.website.com</website>
+    </student>
+    <student>
+        <name>ANISHA  RAI</name>
+        <address type="permanent">BKT</address>
+        <address type="temporary">abc</address>
+        <phone >0123456789</phone>
+        <website>www.website.com</website>
+    </student>
+    <student>
+        <name>ANUP SHRESTHA</name>
+        <address>LPT</address>
+        <phone>0123456780</phone>
+        <website>www.website.com</website>
+    </student>
+    <student>
+        <name>BISHAL KC</name>
+        <address>DRN</address>
+        <phone>0123456789</phone>
+        <website>www.website.com</website>
+    </student>
+</students>

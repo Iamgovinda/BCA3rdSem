@@ -1,0 +1,103 @@
+body 
+{
+        font: 14px Arial,sans-serif; 
+        margin: 0px;
+}
+.header {
+    padding: 10px 20px;
+    background: #8c1464; 
+}
+.header h1 {
+    font-size: 24px;
+}
+.container {
+    width: 100%;
+    background: #1fc117; 
+}
+.nav, .section {
+    float: left; 
+    padding: 20px;
+    min-height: 170px;
+    box-sizing: border-box;
+}
+.nav {            
+    width: 20%;             
+    background: #630b76;
+}
+.section {
+  color: aliceblue;
+    width: 80%;
+    background: rgb(15, 36, 101);
+}
+.nav ul {
+    list-style: none; 
+    line-height: 24px;
+    padding: 0px; 
+}
+.nav ul li a {
+    color: rgb(43, 126, 208);
+}    
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.footer {
+    background: #23828a;            
+    text-align: center;
+    padding: 5px;
+}
+
+ 
+
+div.gallery {
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+ 
+
+div.gallery:hover {
+  border: 1px solid #787;
+}
+
+ 
+
+div.gallery img {
+  width: 3%;
+  height: small;
+}
+
+ 
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+ 
+
+.column {
+  float: left;
+  width: 38.33%;
+}
+
+ 
+
+.logo {
+  float: right;
+  width: 105px;
+}
+
+ 
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

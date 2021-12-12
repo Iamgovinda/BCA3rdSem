@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE library SYSTEM "x.dtd">
+
+
+<library lname="abclibrary" laddress="kathmandu" lphonenumber="556789">
+
+    <book>
+        <bname>science</bname>
+        <bid>45467</bid>
+        <page>100</page>
+    </book>
+
+    <book>
+        <bname>math</bname>
+        <bid>56789</bid>
+        <page>200</page>
+    </book>
+
+    <book>
+        <bname>webtech</bname>
+        <bid>867</bid>
+        <page>250</page>
+    </book>
+
+
+
+    
+
+
+
+
+</library>

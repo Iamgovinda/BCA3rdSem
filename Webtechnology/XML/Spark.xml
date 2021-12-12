@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<spark
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation = "Spark.xsd">
+
+    <to>My Students</to>
+    <from>Gobinda Jamkatel</from>
+    <subject>A message</subject>
+    <message>Welcome to the world of XML!</message>
+
+</spark>
